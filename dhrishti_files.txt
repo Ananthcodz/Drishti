@@ -1,0 +1,10 @@
+dlib face-recognition module
+
+.. dlib written in c++
+.. labeled faces in the wild - dataset 
+.. 99.38% accuracy on the dataset
+.. face_locations - to find all the faces in the input
+.. face_landmarks - locations and outlines of facial features (eyes, nose, mouth and chin)
+.. change the threshold of match score for twin cases using --tolerance tool in command line
+.. face_recognition --cpus <number_of_cpu_cores_to_use> <location> to increase speed of facial recog (4 times image processing can be done using parallel processing)
+

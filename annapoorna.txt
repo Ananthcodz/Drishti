@@ -1,0 +1,92 @@
+Detection phase 
+Humans
+1. Detect humans - Stationary or moving
+2. Differentiate humans standing on pavements and those not.
+3. Be able to predict basic path of human to avoid collision
+4. Should be able to detect humans from different sides of the road
+5. If they are halting for too much time in one location?
+6. 
+
+
+
+
+Other vehicles
+1. Detect stationery or moving vehicles
+2. Dimensions of vehicles
+3. Speed of vehicles (turning approximations)
+4. Probable path for approaching vehicle
+5. Maybe - ambulance 
+6. Types - automobiles, 2 wheelers, big trucks, tractor, cycles, campus bus
+7. Even if vehicles are coming on the wrong side detect and halt.
+8. On narrow roads(One way) how do we deal with it?
+
+
+
+
+Animals
+HIGHLY IMPROBABLE PATH
+1. Ariels - birds
+2. Mid size - dogs/ pigs
+3. Small - cats and the 
+4. Also recognise cattle. 
+5. Maybe monkeys
+
+
+Trees
+1. Trees/ plants obstructing certain roads
+2. Big branches fallen over
+3. Creepers
+4. 
+
+
+Whether conditions
+
+1. LIGHT SOURCE -Campus is very dimly lit in certain areas. How do we deal with it? (Thermal imaging/ Sonar/ LiDAR)
+2. Fog
+3. Rain
+4. Slippery roads
+5. Sand/ material of road
+
+
+
+Barricades/Objects
+1. Dustbins
+2. Stones/ rocks
+3. Gates
+4. 
+
+
+
+Path
+1. Pavement or not
+2. Stay on correct side of road(use road line markings)
+3. Speed brakes
+4. Terrain (Slopes). How to brake and Start on slopes
+5. Pedestrian crossings
+6. Identify road signs
+7. Determine the width of road, radius of turns, Calculate if vehicle can fir in the given path
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+
+
+
+PRE PROCESSING (HOW ARE WE GONNA DETECT IT)
+
+bounding boxes
+
+yolo V6
+
+semantic segmentation
+
