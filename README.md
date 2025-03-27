@@ -1,6 +1,8 @@
 # Drishti - Automated Classroom Attendance System using Facial Recognition
 
-![DRISHTI_LOGO](https://github.com/user-attachments/assets/557ef2c1-373b-43a1-885f-3edeb44d7043)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/557ef2c1-373b-43a1-885f-3edeb44d7043" alt="Drishti Logo">
+</p>
 
 ## Problem Statement
 Drishti aims to develop an automated classroom attendance system integrated with a mobile application for seamless attendance management.
