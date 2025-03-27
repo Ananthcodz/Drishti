@@ -1,27 +1,54 @@
-# Drishti
+# Drishti - Automated Classroom Attendance System using Facial Recognition
 
-## Problem Statement:
+![DRISHTI_LOGO](https://github.com/user-attachments/assets/557ef2c1-373b-43a1-885f-3edeb44d7043)
 
-To develop an automated classroom attendance system and a mobile application for attendance management
+## Problem Statement
+Drishti aims to develop an automated classroom attendance system integrated with a mobile application for seamless attendance management.
 
-## Objectives:
+## Objectives
+- Develop a robust face recognition algorithm.
+- Deploy a network of two different cameras facing each other in each classroom to detect students entering and leaving.
+- Enhance the system with additional functionality for improved accuracy and usability.
+- Implement distance algorithms and other techniques to prevent proxy attendance.
+- Design a mobile application with separate interfaces for students and faculty to track attendance.
 
-1. Develop a face recognition algorithm.
+## Setup Instructions
 
-2. Setup system of cameras in classrooms to detect students, entering and leaving the classroom.
+### Prerequisites
+- Clone the repository.
+- Install the required dependencies:
+  ```bash
+  pip install -r requirements.txt
+  ```
+- Ensure you have a working Python environment.
 
-3. Re-enforcing the proposed method with further functionality.
+### Database Setup
+1. Add a clear image of each required person's face to the `images` folder (used for face recognition database).
+   - **Note:** The file names of the images must exactly match the names in the linked Google Spreadsheet.
+2. Place the JSON file required to connect to your Google Spreadsheet in the `important` folder.
+   - A basic template is provided for reference.
 
-4. Implement distance algorithm and other methods to avoid proxies.
+### Configuration
+- Update the **port numbers** in `attendance_copy.py` at **lines 194 and 195** to match your system configuration.
 
-5. Building an application with separate interfaces for students and faculties to track attendance.
+### Running the System
 
-# Steps
+1. Start the attendance tracking script:
+   ```bash
+   python attendance_copy.py
+   ```
 
-1. Clone the repository.
-2. Install the required libraries from requiremnets.txt
-3. Add a single clear image of the requires people's faces to a folder named "images". (Populate the database)
-   ##### Note: Name of the image files should be exactly same as the ones mentioned in the google spreadsheet
-4. Add the json file to connect to your google spreadsheet to a folder named "important". Basic template has been provided
-5. On line number 194,195 in attendance_copy.py change the port numbers according to your syste.
-6. Run simple_facerec.py once and then run attendance_copy.py
+## Features
+- **Automated Attendance:** Uses facial recognition to mark attendance.
+- **Real-time Tracking:** Detects students entering and exiting classrooms.
+- **Proxy Prevention:** Incorporates distance algorithms to prevent fraudulent attendance.
+- **Mobile Integration:** Provides distinct interfaces for students and faculty.
+
+## Future Enhancements
+- Improve accuracy with AI-driven enhancements.
+- Extend support for multiple classroom environments.
+- Develop a more intuitive user interface for the mobile application.
+
+---
+For any issues or contributions, feel free to submit an issue or pull request to the repository.
+
